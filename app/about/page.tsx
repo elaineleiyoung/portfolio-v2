@@ -72,7 +72,7 @@ export default function About() {
 						Hi there! 👋 <br></br> I'm Elaine, welcome to my website!
 						Let me take a moment to introduce myself.
 					</p>
-					<h2 className="text-2xl font-semibold mb-2 text-white">Who Am I</h2>
+					<h2 className="text-2xl font-semibold mb-2 text-white">Who I Am</h2>
 					<p className="text-white">
 						I'm an undergraduate at Boston University studying Computer Science with minors in Economics and Philosophy. 
 						I grew up in the Bay Area, and I hope to return there for a full-time job in the future.
@@ -127,6 +127,7 @@ export default function About() {
 					<p className="text-white">
 						Thank you for visiting my website, and I look forward to sharing more with you.
 					</p>
+					<br></br>
 					<p className="text-white">Best regards,<br></br> Elaine Leiyoung</p>
 				</div>
 			</div>
