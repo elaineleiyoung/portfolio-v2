@@ -47,7 +47,7 @@ export default function Projects() {
         <Navigation />
         <div className="container grid grid-cols-3 gap-4 min-h-screen px-10 py-30 mx-auto">
           <div className="col-span-1">
-            <h1 className="z-10 fixed top-1/2 transform -translate-y-1/2 text-white text-edge-outline font-display sm:text-5xl md:text-8xl">
+            <h1 className="z-10 fixed top-1/2 transform -translate-y-1/2 text-slate-200 text-edge-outline font-display sm:text-5xl md:text-8xl">
               Projects
             </h1>
           </div>
@@ -75,7 +75,7 @@ export default function Projects() {
             {/* <span>{p.icon}</span>{" "} */}
             <div className="z-10 flex flex-col items-center">
               <span className="text-xl font-medium duration-150 lg:text-3xl text-black font-display">
-              {/* <span className="text-xl font-medium duration-150 lg:text-3xl text-zinc-200 text-black group-hover:text-white font-display"> */}
+              {/* <span className="text-xl font-medium duration-150 lg:text-3xl text-zinc-200 text-black group-hover:text-slate-200 font-display"> */}
                 {p.handle}
               </span>
               <span className="mt-4 text-sm text-center duration-1000  text-black ">

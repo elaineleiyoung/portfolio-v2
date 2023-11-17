@@ -1,52 +1,30 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
 import { Navigation } from "../components/nav";
-
-const socials = [
-	{
-		icon: <Twitter size={20} />,
-		href: "https://twitter.com/chronark_",
-		label: "Twitter",
-		handle: "@chronark_",
-	},
-	{
-		icon: <Mail size={20} />,
-		href: "mailto:dev@chronark.com",
-		label: "Email",
-		handle: "dev@chronark.com",
-	},
-	{
-		icon: <Github size={20} />,
-		href: "https://github.com/chronark",
-		label: "Github",
-		handle: "chronark",
-	},
-];
 
 export default function About() {
 	return (
         <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
 			<Navigation />
 			<div className="container flex flex-col items-center justify-center min-h-screen px-6 py-20 mx-auto">
-				<h1 className="text-3xl font-medium duration-150 lg:text-5xl text-white font-display">
+				<h1 className="text-3xl font-medium duration-150 lg:text-5xl text-slate-200 font-display">
 					About Me
 				</h1>
 				<div className="prose prose-white mt-4">
-					<p className="text-white">
+					<p className="text-slate-200">
 						{/* Hi there! 👋  */}
 						To Whom It May Concern,
 						<br></br><br></br> 
 						I'm Elaine, thanks for finding my website! Feel free to take a look around and learn more about me.
 					</p>
-					<h2 className="text-2xl font-semibold mb-2 text-white">Who I Am</h2>
-					<p className="text-white">
+					<h2 className="text-2xl font-semibold mb-2 text-slate-200">Who I Am</h2>
+					<p className="text-slate-200">
 						I'm an undergraduate at Boston University studying Computer Science with minors in Economics and Philosophy. 
 						I grew up in the Bay Area, and I hope to return there for a full-time job in the future.
 						I'm interested in software and data engineering, devops, and AI/ML.
 
 					</p>
-					<h2 className="text-2xl font-semibold mb-2 text-white">What I've Done</h2>
-						<ul className="list-disc list-inside text-white">
+					<h2 className="text-2xl font-semibold mb-2 text-slate-200">What I've Done</h2>
+						<ul className="list-disc list-inside text-slate-200">
 							<li>I'm an incoming Engineering Summer Analyst at Goldman Sachs.</li>
 							<li>I am currently an Undergraduate Researcher at Boston University's Department of Computer Science.</li>
 							<li>This summer, I was a Hybrid Cloud Data Engineer Intern at Nutanix.</li>
@@ -56,8 +34,8 @@ export default function About() {
 							{/* Add more bullet points as needed */}
 						</ul>
 
-					<h2 className="text-2xl font-semibold mb-2 text-white">What I like</h2>
-						<p className="text-white">
+					<h2 className="text-2xl font-semibold mb-2 text-slate-200">What I like</h2>
+						<p className="text-slate-200">
 						I grew up exploring lots of different things, so I have a pretty wide variety of interests. 
 						<br></br>
 						<br></br>
@@ -76,17 +54,17 @@ export default function About() {
 						{/* <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1F0sijgNaJdgit?utm_source=generator&theme=0" width="100%" height="152" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> */}
 						</p>
 
-					<h2 className="text-2xl font-semibold mb-2 text-white">Let's Connect</h2>
-					<p className="text-white">
+					<h2 className="text-2xl font-semibold mb-2 text-slate-200">Let's Connect</h2>
+					<p className="text-slate-200">
 						I'm excited to connect with fellow individuals who share similar passions and interests,
 						so feel free to contact me -- check out my contact page.
 						Don't hesitate to reach out if you have any questions or just want to have a chat!
 					</p>
-					<p className="text-white">
+					<p className="text-slate-200">
 						Thank you for visiting my website, and I look forward to sharing more with you.
 					</p>
 					<br></br>
-					<p className="text-white">Best regards,<br></br> Elaine Leiyoung</p>
+					<p className="text-slate-200">Best regards,<br></br> Elaine Leiyoung</p>
 				</div>
 			</div>
         </div>
