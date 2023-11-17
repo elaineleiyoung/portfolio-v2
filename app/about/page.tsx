@@ -33,7 +33,8 @@ export default function About() {
 				</h1>
 				<div className="prose prose-white mt-4">
 					<p className="text-white">
-						Hi there! 👋 
+						{/* Hi there! 👋  */}
+						To Whom It May Concern,
 						<br></br><br></br> 
 						I'm Elaine, thanks for finding my website! Feel free to take a look around and learn more about me.
 					</p>
@@ -54,16 +55,6 @@ export default function About() {
 							<li>From 2019 - 2021, I was a teaching assistant at MT Learning Center for Geometry, Algebra, Precalculus, and SAT Prep. </li>
 							{/* Add more bullet points as needed */}
 						</ul>
-						<h2 className="text-2xl font-semibold mb-2 text-white">Where I've Been</h2>
-						<p className="text-white">
-						I love to travel! I hope to travel more in the future, but check out this map of all the places I've been so far:
-						<iframe
-							src="https://staging.amcharts.com/visited_countries/view/#0-NA,US,TR,MX,KR,JP,IT,GR,FR,ES,GB,DE,CN,CA,AU"
-							title="Visited Countries Map"
-							width="100%"
-							height="250" 
-						/>
-					</p>
 
 					<h2 className="text-2xl font-semibold mb-2 text-white">What I like</h2>
 						<p className="text-white">
