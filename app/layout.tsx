@@ -14,11 +14,11 @@ export const metadata: Metadata = {
 		title: "Elaine Leiyoung",
 		description:
 			"Software engineer and lifelong student",
-		url: "https://chronark.com",
+		url: "https://elaineleiyoung.tech",
 		siteName: "Elaine Leiyoung",
 		images: [
 			{
-				url: "https://chronark.com/og.png",
+				url: "https://elaineleiyoung.tech/og.png",
 				width: 1920,
 				height: 1080,
 			},
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: "Chronark",
+		title: "Elaine Leiyoung",
 		card: "summary_large_image",
 	},
 	icons: {
